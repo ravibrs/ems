@@ -1,0 +1,14 @@
+curl --location 'http://localhost:9999/employees' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+            "firstName": "Ravi",
+            "lastName": "Boddupali",
+            "emailAddress": "Ravi.Boddupali@test.com",
+            "phone": "8178890799",
+            "birthDate": "1990-05-22",
+            "jobTitle": "Software Engineer",
+            "department": "IT",
+            "location": "Virginia",
+            "startDate": "2023-01-23",
+            "managerReporting": "Michael Scott"
+ }'

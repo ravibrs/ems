@@ -1,0 +1,14 @@
+curl --location --request PUT 'http://localhost:9999/employees/1' \
+--header 'Content-Type: application/json' \
+--data '{
+        "firstName": "Ravi Shankar",
+        "lastName": "Boddupali",
+        "emailAddress": "Ravi.Boddupali@test.com",
+        "phone": "8178890799",
+        "birthDate": "1981-05-22",
+        "jobTitle": "Software Engineer",
+        "department": "IT",
+        "location": "Virginia",
+        "startDate": "2023-01-23",
+        "managerReporting": "Michael Scott"
+        }'

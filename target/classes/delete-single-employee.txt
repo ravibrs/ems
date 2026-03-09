@@ -1,0 +1,2 @@
+curl --location --request DELETE 'http://localhost:9999/employees/1' \
+--header 'Content-Type: application/json'

@@ -1,0 +1,26 @@
+openapi: 3.0.0
+info:
+  title: Employee API
+  version: 1.0
+
+paths:
+
+  /employees:
+    get:
+      summary: Get all employees
+      responses:
+        '200':
+          description: successful operation
+
+    post:
+      summary: Create employee
+
+  /employees/{id}:
+    get:
+      summary: Get employee by ID
+
+    put:
+      summary: Update employee
+
+    delete:
+      summary: Delete employee
